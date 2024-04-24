@@ -1,0 +1,394 @@
+body {
+    background-color:#E7E7E7;
+    overflow-x: hidden;
+    
+}
+
+.haut {
+    width: 500;
+    height: 50px;
+    background: #FF1616 ;
+    opacity: 70%;
+}
+
+.noir1 {
+    width: 500px;
+    height: 25px;
+    background-color: black;
+    position: absolute;
+    right: 8px;
+    top: 33px;
+    opacity: 100%;
+}
+
+
+h1 {
+    font-size: 100px;
+    position: absolute;
+    top: -25px;
+    text-shadow: 12px 15px 8px #0000008a;
+    color: black;
+}
+
+.icon { 
+    position: absolute;
+    right: 10px;
+    font-size: 200px;
+    top: -60px;
+}
+
+.compte {
+    position: relative;
+    top: -8px;
+}
+
+.sac {
+    position: relative;
+    top: -5px;
+}
+
+.tel {
+    position: relative;
+}
+
+.noir2{
+    width: 500px;
+    height: 25px;
+    background-color: black;
+    background-size: cover;
+    position: absolute;
+    right: 0px;   
+}
+
+.bas {
+    position: relative;
+    top: 85px;
+    width: 500;
+    height: 50px;
+    background: #FF1616 ;
+    opacity: 70%;
+}
+
+.gris {
+    width: 200px;
+    height: 2800px;
+    background-color: #c2c2c2 ;
+    position: absolute;
+    top: 193px;
+}
+
+.rouge {
+    width: 1350px;
+    height: 339px;
+    background: #FF1616 ;
+    opacity: 70%;
+    position: relative;
+    right: -200px; 
+    top: 1208px;
+}
+
+main {
+    position: relative;
+    left: 200px;
+    font-size: 20px;
+    width:250px ;
+}
+
+.post {
+    position: relative;
+    bottom: 370px;
+}
+
+.post1 {
+    position: relative;
+    bottom: 370px;
+    font-style: oblique;
+    text-decoration: underline;
+    color: red;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.post2 {
+    line-height: 1em;
+    position: relative;
+    bottom: 370px;
+}
+
+ul {
+    list-style: none;
+    line-height: 40px;
+    position: relative;
+    bottom: 25px;
+    left: -16px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    bottom: 100PX;
+}
+
+.box2 {
+    height: 100px;
+    position: relative;
+    top: 226px;
+    left: -2px;
+}
+
+.box3 {
+    height: 10px;
+    position: relative;
+    left: -1px;
+    /* top: 3756px; */
+}
+    
+.carre {
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    
+}
+
+.recte {
+    width: 250x;
+    height: 370px;
+    background-color: #d9d9d9;
+    margin-top: 5PX; 
+}
+
+.mps5 {
+    position: relative;
+    left: 100px;
+    top: 260px;
+}
+
+.Image-Manette{
+    width: 250px;
+    overflow: hidden;
+
+}
+
+
+.imps5 {
+    width: auto;
+    height: 250px;
+    background: black;
+    width: 100%;
+}
+
+img {
+    object-fit: cover;
+    transition: transform .9s ease;
+}
+
+.imps5:hover {
+    opacity: 0.5;
+    -ms-transform: scale(5); /* IE 9 */
+    -webkit-transform: scale(5) ; /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
+
+.mxbox {
+    position: relative;
+    left: 280px;
+    top: 115px;
+}
+
+.ixbox {
+    position: relative;
+    top: 220px;
+    width: 250px;
+    height: auto;
+}
+
+.ixbox:hover {
+    opacity: 0.5;
+    -ms-transform: scale(5); /* IE 9 */
+    -webkit-transform: scale(5) ; /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
+.cac {
+    position: relative;
+    top: 261px;    
+    left: 412px;
+}
+
+.icac {
+    width: auto;
+    height: 250px;
+    background: black;
+    width: 100%;
+}
+
+.icac:hover {
+    opacity: 0.5;
+    -ms-transform: scale(5); /* IE 9 */
+    -webkit-transform: scale(5) ; /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
+.box22 {
+    position: relative;
+    height: 1px;
+    top: 0px;
+    left: 0px;
+}
+
+.ea {
+    position: relative;
+    left: 100px;
+    bottom: 553px;
+}
+
+.iea {
+    width: auto;
+    height: 250px;
+    background: black;
+    width: 100%;
+}
+
+
+.iea:hover {
+    opacity: 0.5;
+    -ms-transform: scale(5); /* IE 9 */
+    -webkit-transform: scale(5) ; /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
+.es {
+    position: relative;
+    left: 530px;
+    bottom: 1597px;
+}
+
+.ies {
+    width: 250px;
+    height: auto;
+    position:  relative;
+    right: 0px;
+    top: 50px;
+}
+
+.ies:hover {
+    opacity: 0.5;
+    -ms-transform: scale(5); /* IE 9 */
+    -webkit-transform: scale(5) ; /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
+.cah {
+    position: relative;
+    left: 912px;
+    bottom: 2643px;
+}
+
+.icah {
+    width: auto;
+    height: 250px;
+    background: black;
+    width: 100%;
+}
+
+.icah:hover {
+    opacity: 0.5;
+    -ms-transform: scale(5); /* IE 9 */
+    -webkit-transform: scale(5) ; /* Safari 3-8 */
+    transform: scale(1.5);;
+}
+
+.ip14 {
+    position: relative;
+    left: 100px;
+    top: 168px;
+}
+
+.iip14 {
+    width: auto;
+    height: 250px;
+    background: black;
+    width: 100%;
+}
+
+.iip14:hover {
+    opacity: 0.5;
+    -ms-transform: scale(5); /* IE 9 */
+    -webkit-transform: scale(5) ; /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+.ps5 {
+    position: relative;
+    left: 530px;
+    bottom: 860px;
+}
+
+.ips5 {
+    width: auto;
+    height: 250px;
+    background: black;
+    width: 100%;
+}
+
+.ips5:hover {
+    opacity: 0.5;
+    -ms-transform: scale(5); /* IE 9 */
+    -webkit-transform: scale(5) ; /* Safari 3-8 */
+    transform: scale(1.5) ;
+    
+}
+
+.jbl {
+    position: relative;
+    left: 911px;
+    bottom: 1900px;
+}
+
+.ijbl {
+    width: 250px;
+    height: auto;
+    position:  relative;
+    right: 0px;
+    top: 50px;
+}
+
+.ijbl:hover {
+    opacity: 0.5;
+    -ms-transform: scale(5); /* IE 9 */
+    -webkit-transform: scale(5) ; /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
+.arrondi {
+    width: 200px;
+    height: 40px;
+    border: 4px solid #000;
+    background-color: white;
+    -webkit-border-radius: 12px / 24px;
+    -moz-border-radius:    12px / 24px; 
+    border-radius:         24px / 24px; 
+    position: relative;
+    left: 1140px;
+    top: 1125px;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.page {
+    text-decoration: dashed;
+    position: relative;
+    letter-spacing: 5px;
+    left: 25px;
+    top: 5px;
+    color: #000;
+}
+
+@media screen and (max-width: 1500px) {
+    
+  
+
+}
+    

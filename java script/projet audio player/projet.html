@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musique platey</title>
+    <link rel="stylesheet" href="projet..css">
+</head>
+<body>
+    
+    <div class="player">
+        <img id="img-casque" src="image/headphone.svg" alt="casque">
+        <audio id="player" ontimeupdate="updateprogress()" >
+            <source id="source"/>
+            audio not supported
+        </audio>
+
+        <progress id="progress" value="0" max="100"></progress>
+
+        <div id="controle">
+            <p id="currentsong"></p>
+            <div class="controle_wrapper">
+                <span onclick="playAudio()">&#9658;</span>
+                <span onclick="pauseAudio()">&#10074;&#10074;</span>
+                <div>
+                    <p>volume</p>
+                    <div class="volume">
+                        <span>&#10074;</span>
+                        <input type="range" id="volumeslider" min="0" max="1" step="0.01">
+                        <span>+</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2>My song</h2>
+        <div id="songlist">
+        </div>
+        <p> music:  <a href="https://www.youtube.com"> https://www.youtube.com</a></p>
+    </div>
+<script src="projet1.js"></script>
+</body>
+</html>

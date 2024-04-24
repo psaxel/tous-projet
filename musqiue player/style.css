@@ -1,0 +1,73 @@
+body{
+  margin: 0;
+}
+header{
+   background: #F09294;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 10vh;
+   text-align: center;
+   display: flex;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+.album{
+    margin: 10px;
+    height: 580px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 10px;
+    text-decoration: none;
+    font-size: 60px;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: -5px 3px 0px grey;
+}
+
+#flexbox{
+    display: grid;
+   grid-template-columns: repeat(3,1fr) ;
+   gap: 30px;
+   margin: 30px;
+}
+
+#or-noir{
+    background-image: url("images/Or-noir.jpg");
+}
+
+#daft-punk{
+    background-image: url("images/Daft-Punk-.jpg");
+}
+
+#twopac{
+    background-image: url("images/2pac.jpg");
+}
+
+#ice-cube{
+    background-image: url("images/ice-cube.jpg");
+}
+
+#ft-cent{
+    background-image: url("images/50cent.jpg");
+}
+
+#az{
+    background-image: url("images/AZ.jpg");
+}
+
+@media (min-width: 5000px) {
+    body {
+        max-width: 100vh;
+    }
+}

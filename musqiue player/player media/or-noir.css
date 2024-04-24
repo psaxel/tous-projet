@@ -1,0 +1,111 @@
+html{
+    font-size: 10px;
+}
+
+body {
+    background: linear-gradient(#3b3b3b, #2b2b2b);
+    min-height: 100vh;
+    color: whitesmoke;
+    font-size: 1.4rem;
+    margin: 2rem auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.player {
+    background: url("/images/mp3.png");
+    background-repeat: no-repeat;
+    background-size: 600px;
+    padding: 2rem;
+    border-radius: 2rem;
+    height: 1200px; 
+}
+
+#controle {
+    border-radius: 1rem;
+    padding: 1.6rem;
+}
+
+.controle_wrapper > span {
+    cursor: pointer;
+    color: salmon;
+    font-size: 6rem;
+    padding: 2rem;
+    position: relative;
+    top: 275px;
+}
+#currentsong {
+    overflow: hidden;
+    max-height: 20px;
+    position: absolute;
+    left: 30%;
+}
+.contenter{
+    position: relative;
+    top: 80px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+#songlist {
+    background: url("../images/Or-noir.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow-y: auto;
+    text-align: left;
+    height: 300px;
+    width: 350px;
+    position: relative;
+    left: 95px;
+}
+
+li {
+    cursor: pointer;
+    padding: 1.5rem;
+}
+
+li:hover {
+    background: #f3644b;
+}
+
+a {
+    color: whitesmoke;
+}
+
+progress{
+    width: 70%;
+    height: 3rem;
+    margin: 3rem 0 0 40px ;
+}
+
+@media (min-width: 800px) {
+body {
+    max-width: 60vh;
+    font-size: 1.8rem;
+}
+}
+
+#vcontrol{
+    position: relative;
+    top: 80px;
+    left: 24px;
+}
+
+#play{
+    right: 55px;
+}
+
+#pause{
+    left: 125px;
+}
+
+#play:hover{
+    opacity: 30%;
+}
+
+#pause:hover{
+    opacity: 30%;
+}
+
+
+

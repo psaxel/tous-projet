@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-size: 40px;
+}
+ 
+ header {
+    font-size: 50px;
+    color: white;
+    text-shadow: 1 1 10px black;
+ }
+
+ h1 {
+    margin: 40px 0 10px;
+    text-align: center;
+ }
+
+ footer {
+   background-image: url("images/footer.webp");
+   background-size: cover;
+   width: 100%;
+   height: 100px;
+   background-repeat: repeat;
+   border: solid 5px black;
+ }
+
+ #fh {
+   background-image: url("images/imgfdc.jpg") ;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+}
+
+.container {
+   width: 1300px;
+   margin: 0 auto;
+}
+ 
+ #top {
+    text-align: center;
+    font-size: 30px;
+ }
+
+ #petra {
+    background-image: url("images/cpj.jpg"); 
+    grid-row: 1/3;
+ }
+
+ #chris {
+   background-image: url("images/stcr.jpg");
+   grid-row: 1/1;
+ }
+
+ #machu {
+   background-image: url("images/pichou.jpg");
+   grid-row: 1/1;
+ }
+
+ #coliser {
+   background-image: url("images/coliser.jpg");
+   grid-row: 2/2;
+ }
+
+ #taj {
+   background-image: url("images/taj.jpg");
+   grid-row: 2/2;
+ }
+
+ #angkor {
+   background-image: url("images/siteangkor.jpg")  ;
+   grid-row: 4/6;
+ }
+
+ #cite {
+   background-image: url("images/citeinterdite.jpg");
+   grid-row: 4/4;
+ }
+
+ #pyramide {
+   background-image: url("images/pyr.jpg");
+   grid-row: 4/4;
+ }
+
+ #muraille {
+   background-image: url("images/gmc.jpg");
+   grid-row: 5/5;
+ }
+
+ #chichen {
+   background-image: url("images/itza.jpg");
+   grid-row: 5/5;
+ }
+
+ .merveille {
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    min-height: 300px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    text-shadow:black -5px 7px 10px;
+ }
+
+ #flexbox-merveille {
+   display: grid;
+   grid-template-columns: repeat(3,1fr) ;
+   gap: 30px;
+   margin: 30px;
+ }
+

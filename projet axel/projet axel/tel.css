@@ -1,0 +1,100 @@
+body {
+    background-color:#E7E7E7;
+    overflow-x: hidden;
+    
+}
+
+.haut {
+    width: 500;
+    height: 50px;
+    background: #FF1616 ;
+    opacity: 70%;
+}
+
+.noir1 {
+    width: 500px;
+    height: 25px;
+    background-color: black;
+    position: absolute;
+    right: 8px;
+    top: 33px;
+    opacity: 100%;
+}
+
+
+h1 {
+    font-size: 100px;
+    position: absolute;
+    top: -25px;
+    text-shadow: 12px 15px 8px #0000008a;
+    color: black;
+
+}
+h1:hover {
+    color: blue;
+}
+
+.icon { 
+    position: absolute;
+    right: 10px;
+    font-size: 200px;
+    top: -60px;
+}
+
+.compte {
+    position: relative;
+    top: -8px;
+}
+
+.sac {
+    position: relative;
+    top: -5px;
+}
+
+.tel {
+    position: relative;
+}
+
+.noir2{
+    width: 500px;
+    height: 25px;
+    background-color: black;
+    background-size: cover;
+    position: absolute;
+    right: 0px;   
+}
+
+.bas {
+    position: relative;
+    top: 85px;
+    width: 500;
+    height: 50px;
+    background: #FF1616 ;
+    opacity: 70%;
+}
+
+.gris {
+    width: 200px;
+    height: 800px;
+    background-color: #c2c2c2 ;
+    position: absolute;
+    top: 193px;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-decoration: underline;
+}
+
+.info {
+    position: relative;
+    top: 227px;
+    left: 365px;
+}
+p {
+    font-size: 100px;
+    font-style: oblique;
+    text-decoration: underline overline;
+    
+}
